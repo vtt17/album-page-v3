@@ -1,4 +1,48 @@
-body {background-color: ivory;}
-ul {line-height: 2;}
-h1 {font-style: italic;}
-h3 {color: lime; text-decoration: underline;}
+body {  
+	font: 15ps/1.5 Arial, Helvetica, sans-serif;   			/* font-size, line-height, font-family */
+	padding: 0;
+	margin:0;
+	background: #f4f4f4;
+}
+.container {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	padding-bottom: 50px;
+
+}
+.top {
+	background-color: #008080;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: white;
+	font-style: italic;
+}
+.picture {
+	text-align: center;
+	padding: 20px;
+	width: 300px;
+	background-color: lightgray;
+	margin-left: auto;
+	margin-right: auto;
+}
+h1 {
+	text-shadow: 2px 2px 0 #000080, -2px 2px 0 #000080;
+}
+a {
+		text-decoration: none;
+		color: #bb8fce;
+}
+#member {
+	padding: 10px;
+}
+.track {
+	text-align: center;
+}
+tr {
+	height: 30px;
+}
+th {
+	background-color: #008080;
+}
